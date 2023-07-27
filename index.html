@@ -69,25 +69,25 @@
             </figure>
           </div><!-- nav logo -->
 
-          <div class="   lg:hidden">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost btn-circle">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
-                    fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h16M4 18h7" />
-                  </svg>
-                </label>
-                <ul tabindex="0"
-                  class="menu menu-sm dropdown-content mt-3 z-[100] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>mmmm</a></li>
-                  <li><a>mmm</a></li>
-                  <li><a>mmmm2</a></li>
-                </ul>
-              </div>
+          <!-- nav mobile menu item -->
+          <div class="lg:hidden">
+            <div>
+              <button id="mobile_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8"
+                  fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+              <ul id="mobile_menu"
+                class="w-[200px] top-50 p-4 text-center hidden absolute z-10 bg-white shadow-lg shadow-slate-600 rounded-lg right-0">
+                <li class="mb-2"><a class="text-lg font-semibold">Home</a></li>
+                <li class="mb-2"><a class="text-lg font-semibold">About us</a></li>
+                <li class="mb-2"><a class="text-lg font-semibold">Shop</a></li>
+                <li class="mb-2"><a class="text-lg font-semibold">All Fruits</a></li>
+              </ul>
             </div>
           </div><!-- nav mobile menu item -->
 
@@ -953,7 +953,9 @@
             =================================================== -->
           <div class="flex-1 order-1 lg:order-5 px-10">
             <figure>
-              <img class="rounded-lg" src="images/whychoose1.png" alt>
+              <img class="rounded-lg"
+                src="images/whychoose1.png"
+                alt>
             </figure>
           </div>
           <!--======================================================
@@ -1063,6 +1065,6 @@
         </div>
       </div>
     </footer>
-
+    <script src="/scripts.js" type="module"></script>
   </body>
 </html>
