@@ -60,3 +60,7 @@
 .aa-footer-menu {
     text-align: center;
 }
+.aa-dod {
+    transform: rotate(90deg);
+    margin-left: 10px;
+}
